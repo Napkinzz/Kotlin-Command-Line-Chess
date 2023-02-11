@@ -12,8 +12,7 @@ class Knight(color: Color) : ChessPiece(color, PieceType.KNIGHT, directions()) {
     /**
      * Prints the unicode representation of the corresponding piece
      *
-     * @param nothing
-     * @return nothing
+     * @author Lukas Waschuk
      */
     override fun print(): String {
         return if (this.color == Color.W){

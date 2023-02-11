@@ -6,6 +6,7 @@ import game_helpers.Location
  * Pawn Chess Piece
  *
  * @param color Who the piece belongs to
+ * @author Lukas Waschuk
  */
 class Pawn(color: Color, var canBeEnPassant: Boolean = false) : ChessPiece(color, PieceType.PAWN, directions()) {
 
